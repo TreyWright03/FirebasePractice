@@ -1,0 +1,47 @@
+:root {
+    --main-color: #222831;
+    --secondary-color: #393E46;
+    --accent-color: #00ADB5;
+    --font-color: #EEEEEE;
+}
+
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background: var(--main-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+input{
+    color: var(--font-color);
+    background-color: var(--secondary-color);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+button{
+    color: var(--font-color);
+    background-color: var(--accent-color);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+}
